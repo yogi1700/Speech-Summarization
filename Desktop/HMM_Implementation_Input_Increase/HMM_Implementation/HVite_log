@@ -1,0 +1,382 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words.mlf -S test.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 11 physical / 11 logical HMMs
+Label file will be used to align each file
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/AriannaHuffington_2010W_1_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [1174 frames] -60.6730 [Ac=-71230.1 LM=0.0] (Act=5.1)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/AriannaHuffington_2010W_2_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [395 frames] -61.1345 [Ac=-24148.1 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/AriannaHuffington_2010W_3_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_U SENT-END  ==  [296 frames] -60.2227 [Ac=-17825.9 LM=0.0] (Act=5.5)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/AriannaHuffington_2010W_4_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_U SENT-END  ==  [412 frames] -60.7738 [Ac=-25038.8 LM=0.0] (Act=5.6)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/AriannaHuffington_2010W_5_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_U SENT-END  ==  [379 frames] -60.4803 [Ac=-22922.1 LM=0.0] (Act=6.4)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/DeanOrnish_2006_1_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [663 frames] -63.2683 [Ac=-41946.9 LM=0.0] (Act=4.6)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/DeanOrnish_2006_2_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [550 frames] -63.7016 [Ac=-35035.9 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/DeanOrnish_2006_3_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [554 frames] -65.1511 [Ac=-36093.7 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/DeanOrnish_2006_4_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_U SENT-END  ==  [679 frames] -65.5974 [Ac=-44540.6 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/DeanOrnish_2006_5_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [647 frames] -65.4736 [Ac=-42361.4 LM=0.0] (Act=6.2)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/DeanOrnish_2006_6_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [527 frames] -63.5352 [Ac=-33483.1 LM=0.0] (Act=5.5)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/JessaGamble_2010GU_1_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [145 frames] -63.3555 [Ac=-9186.5 LM=0.0] (Act=6.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/JessaGamble_2010GU_2_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [409 frames] -61.0465 [Ac=-24968.0 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/JessaGamble_2010GU_3_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [608 frames] -62.9446 [Ac=-38270.3 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/JessaGamble_2010GU_4_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [706 frames] -62.3359 [Ac=-44009.2 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/JessaGamble_2010GU_5_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [1928 frames] -62.6886 [Ac=-120863.7 LM=0.0] (Act=5.3)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/JessaGamble_2010GU_6_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [468 frames] -61.1506 [Ac=-28618.5 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/KamalMeattle_2009U_1_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [377 frames] -62.5556 [Ac=-23583.5 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/KamalMeattle_2009U_2_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [616 frames] -63.9250 [Ac=-39377.8 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/KamalMeattle_2009U_3_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [1502 frames] -62.4622 [Ac=-93818.1 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/KamalMeattle_2009U_4_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [700 frames] -64.4627 [Ac=-45123.9 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/KamalMeattle_2009U_5_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [637 frames] -61.3224 [Ac=-39062.4 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L1/KamalMeattle_2009U_6_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_U SENT-END  ==  [253 frames] -62.4148 [Ac=-15791.0 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/AriannaHuffington_2010W_6_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [295 frames] -63.2451 [Ac=-18657.3 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/AriannaHuffington_2010W_7_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [178 frames] -62.8378 [Ac=-11185.1 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/AriannaHuffington_2010W_8_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [124 frames] -63.3208 [Ac=-7851.8 LM=0.0] (Act=6.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/AriannaHuffington_2010W_9_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [226 frames] -62.1681 [Ac=-14050.0 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/AriannaHuffington_2010W_10_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [453 frames] -61.8123 [Ac=-28001.0 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/DeanOrnish_2006_7_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_U SENT-END  ==  [895 frames] -64.5377 [Ac=-57761.2 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/DeanOrnish_2006_8_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [939 frames] -65.0487 [Ac=-61080.8 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/DeanOrnish_2006_9_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_U SENT-END  ==  [207 frames] -65.6734 [Ac=-13594.4 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/DeanOrnish_2006_10_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [1630 frames] -65.0038 [Ac=-105956.2 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/DeanOrnish_2006_11_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [120 frames] -66.0331 [Ac=-7924.0 LM=0.0] (Act=6.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/DeanOrnish_2006_12_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_U SENT-END  ==  [1489 frames] -64.8319 [Ac=-96534.7 LM=0.0] (Act=4.3)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/JessaGamble_2010GU_7_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [1002 frames] -63.3806 [Ac=-63507.4 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/JessaGamble_2010GU_8_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_U SENT-END  ==  [256 frames] -61.0781 [Ac=-15636.0 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/JessaGamble_2010GU_9_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_U SENT-END  ==  [244 frames] -61.4266 [Ac=-14988.1 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/JessaGamble_2010GU_10_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_U SENT-END  ==  [739 frames] -63.2424 [Ac=-46736.2 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/JessaGamble_2010GU_11_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_U SENT-END  ==  [579 frames] -63.0920 [Ac=-36530.3 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/JessaGamble_2010GU_12_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_U SENT-END  ==  [468 frames] -64.0190 [Ac=-29960.9 LM=0.0] (Act=6.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/KamalMeattle_2009U_7_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [624 frames] -62.1688 [Ac=-38793.3 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/KamalMeattle_2009U_8_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_U SENT-END  ==  [1156 frames] -62.6340 [Ac=-72404.9 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/KamalMeattle_2009U_9_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [801 frames] -63.3834 [Ac=-50770.1 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/KamalMeattle_2009U_10_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [994 frames] -64.2481 [Ac=-63862.6 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/KamalMeattle_2009U_11_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [409 frames] -63.9737 [Ac=-26165.3 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L2/KamalMeattle_2009U_12_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [1289 frames] -63.4546 [Ac=-81793.0 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/AriannaHuffington_2010W_11_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [1477 frames] -62.8078 [Ac=-92767.0 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/AriannaHuffington_2010W_12_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [621 frames] -63.4361 [Ac=-39393.8 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/AriannaHuffington_2010W_13_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [381 frames] -62.5215 [Ac=-23820.7 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/AriannaHuffington_2010W_14_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [629 frames] -62.5925 [Ac=-39370.7 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/AriannaHuffington_2010W_15_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [632 frames] -62.8210 [Ac=-39702.9 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/DeanOrnish_2006_13_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [393 frames] -64.9568 [Ac=-25528.0 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/DeanOrnish_2006_14_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [228 frames] -63.8991 [Ac=-14569.0 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/DeanOrnish_2006_15_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [465 frames] -64.6503 [Ac=-30062.4 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/DeanOrnish_2006_16_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [457 frames] -65.4829 [Ac=-29925.7 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/DeanOrnish_2006_17_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [404 frames] -64.5087 [Ac=-26061.5 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/DeanOrnish_2006_18_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [208 frames] -62.2442 [Ac=-12946.8 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/JessaGamble_2010GU_13_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [828 frames] -63.5964 [Ac=-52657.8 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/JessaGamble_2010GU_14_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [650 frames] -62.2444 [Ac=-40458.9 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/JessaGamble_2010GU_15_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [514 frames] -63.6384 [Ac=-32710.1 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/JessaGamble_2010GU_16_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [607 frames] -62.1188 [Ac=-37706.1 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/JessaGamble_2010GU_17_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [754 frames] -62.9184 [Ac=-47440.5 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/JessaGamble_2010GU_18_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [907 frames] -61.5527 [Ac=-55828.3 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/KamalMeattle_2009U_13_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [331 frames] -64.1095 [Ac=-21220.2 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/KamalMeattle_2009U_14_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [782 frames] -62.6914 [Ac=-49024.7 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/KamalMeattle_2009U_15_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [738 frames] -63.6233 [Ac=-46954.0 LM=0.0] (Act=4.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/KamalMeattle_2009U_16_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [492 frames] -63.1349 [Ac=-31062.4 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/KamalMeattle_2009U_17_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [983 frames] -64.0499 [Ac=-62961.1 LM=0.0] (Act=4.1)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L3/KamalMeattle_2009U_18_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [770 frames] -63.0313 [Ac=-48534.1 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/AriannaHuffington_2010W_16_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [787 frames] -63.9688 [Ac=-50343.4 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/AriannaHuffington_2010W_17_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [380 frames] -64.1129 [Ac=-24362.9 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/AriannaHuffington_2010W_18_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [1215 frames] -64.0582 [Ac=-77830.7 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/AriannaHuffington_2010W_19_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [1673 frames] -62.5970 [Ac=-104724.8 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/AriannaHuffington_2010W_20_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [1087 frames] -64.1415 [Ac=-69721.8 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/DeanOrnish_2006_19_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [149 frames] -65.1802 [Ac=-9711.9 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/DeanOrnish_2006_20_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [662 frames] -63.2409 [Ac=-41865.5 LM=0.0] (Act=4.3)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/DeanOrnish_2006_21_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [413 frames] -63.1335 [Ac=-26074.1 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/DeanOrnish_2006_22_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [868 frames] -62.7407 [Ac=-54458.9 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/DeanOrnish_2006_23_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [69 frames] -69.0178 [Ac=-4762.2 LM=0.0] (Act=6.7)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/DeanOrnish_2006_24_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [101 frames] -64.5059 [Ac=-6515.1 LM=0.0] (Act=6.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/JessaGamble_2010GU_19_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [502 frames] -63.1602 [Ac=-31706.4 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/JessaGamble_2010GU_20_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [563 frames] -60.9046 [Ac=-34289.3 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/JessaGamble_2010GU_21_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [596 frames] -62.2942 [Ac=-37127.4 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/JessaGamble_2010GU_22_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [256 frames] -64.5206 [Ac=-16517.3 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/JessaGamble_2010GU_23_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [441 frames] -61.8315 [Ac=-27267.7 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/JessaGamble_2010GU_24_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [820 frames] -61.8272 [Ac=-50698.3 LM=0.0] (Act=6.4)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/KamalMeattle_2009U_19_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [1700 frames] -63.1571 [Ac=-107367.1 LM=0.0] (Act=4.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/KamalMeattle_2009U_20_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [682 frames] -63.6272 [Ac=-43393.8 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/KamalMeattle_2009U_21_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [847 frames] -64.4918 [Ac=-54624.6 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/KamalMeattle_2009U_22_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [901 frames] -63.2188 [Ac=-56960.1 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/KamalMeattle_2009U_23_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [702 frames] -63.3031 [Ac=-44438.8 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L4/KamalMeattle_2009U_24_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [99 frames] -64.5077 [Ac=-6386.3 LM=0.0] (Act=6.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/AriannaHuffington_2010W_21_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_U SENT-END  ==  [394 frames] -63.7757 [Ac=-25127.6 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/AriannaHuffington_2010W_22_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_U SENT-END  ==  [704 frames] -63.3793 [Ac=-44619.0 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/AriannaHuffington_2010W_23_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [1506 frames] -63.0281 [Ac=-94920.4 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/AriannaHuffington_2010W_24_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [2103 frames] -62.0287 [Ac=-130446.4 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/AriannaHuffington_2010W_25_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [1222 frames] -61.1601 [Ac=-74737.6 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/DeanOrnish_2006_25_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_U SENT-END  ==  [139 frames] -64.7969 [Ac=-9006.8 LM=0.0] (Act=6.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/DeanOrnish_2006_26_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [428 frames] -66.1662 [Ac=-28319.1 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/DeanOrnish_2006_27_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_U SENT-END  ==  [385 frames] -66.4515 [Ac=-25583.8 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/DeanOrnish_2006_28_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [195 frames] -65.1377 [Ac=-12701.9 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/DeanOrnish_2006_29_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [1145 frames] -64.7480 [Ac=-74136.4 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/DeanOrnish_2006_30_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [210 frames] -66.4610 [Ac=-13956.8 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/DeanOrnish_2006_31_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [130 frames] -65.1497 [Ac=-8469.5 LM=0.0] (Act=6.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/DeanOrnish_2006_32_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [304 frames] -64.7282 [Ac=-19677.4 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/DeanOrnish_2006_33_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [892 frames] -64.8346 [Ac=-57832.5 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/JessaGamble_2010GU_25_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [921 frames] -61.1297 [Ac=-56300.4 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/JessaGamble_2010GU_26_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [508 frames] -61.0366 [Ac=-31006.6 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/JessaGamble_2010GU_27_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [590 frames] -63.4694 [Ac=-37446.9 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/JessaGamble_2010GU_28_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [1075 frames] -61.9163 [Ac=-66560.0 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/JessaGamble_2010GU_29_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_U SENT-END  ==  [144 frames] -62.8706 [Ac=-9053.4 LM=0.0] (Act=6.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/JessaGamble_2010GU_30_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [724 frames] -61.3573 [Ac=-44422.7 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/JessaGamble_2010GU_31_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [1146 frames] -60.1588 [Ac=-68942.0 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/KamalMeattle_2009U_25_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_U SENT-END  ==  [628 frames] -65.1733 [Ac=-40928.8 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/KamalMeattle_2009U_26_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_U SENT-END  ==  [1254 frames] -63.5734 [Ac=-79721.0 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/KamalMeattle_2009U_27_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_U SENT-END  ==  [406 frames] -63.2634 [Ac=-25685.0 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/Input_Increase_Hmm_test/L5/KamalMeattle_2009U_28_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [478 frames] -63.6138 [Ac=-30407.4 LM=0.0] (Act=7.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

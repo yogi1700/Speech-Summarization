@@ -1,0 +1,106 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words.mlf -S train.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 11 physical / 11 logical HMMs
+Label file will be used to align each file
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L1/AriannaHuffington_2010W_1_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [1174 frames] -60.6502 [Ac=-71203.4 LM=0.0] (Act=4.6)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L1/AriannaHuffington_2010W_2_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_I SENT-END  ==  [395 frames] -60.6852 [Ac=-23970.7 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L1/AriannaHuffington_2010W_3_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_U SENT-END  ==  [296 frames] -59.4952 [Ac=-17610.6 LM=0.0] (Act=4.6)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L1/AriannaHuffington_2010W_4_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_U SENT-END  ==  [412 frames] -60.0666 [Ac=-24747.4 LM=0.0] (Act=4.7)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L1/AriannaHuffington_2010W_5_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L1_U SENT-END  ==  [379 frames] -59.8311 [Ac=-22676.0 LM=0.0] (Act=6.6)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L2/AriannaHuffington_2010W_6_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [295 frames] -62.6148 [Ac=-18471.4 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L2/AriannaHuffington_2010W_7_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [178 frames] -62.2450 [Ac=-11079.6 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L2/AriannaHuffington_2010W_8_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [124 frames] -62.9507 [Ac=-7805.9 LM=0.0] (Act=6.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L2/AriannaHuffington_2010W_9_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [226 frames] -61.7526 [Ac=-13956.1 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L2/AriannaHuffington_2010W_10_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L2_I SENT-END  ==  [453 frames] -61.6171 [Ac=-27912.5 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L3/AriannaHuffington_2010W_11_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [1477 frames] -62.3000 [Ac=-92017.2 LM=0.0] (Act=6.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L3/AriannaHuffington_2010W_12_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [621 frames] -62.5827 [Ac=-38863.9 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L3/AriannaHuffington_2010W_13_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [381 frames] -61.6048 [Ac=-23471.4 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L3/AriannaHuffington_2010W_14_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_I SENT-END  ==  [629 frames] -61.7740 [Ac=-38855.9 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L3/AriannaHuffington_2010W_15_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L3_U SENT-END  ==  [632 frames] -62.4809 [Ac=-39487.9 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L4/AriannaHuffington_2010W_16_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [787 frames] -63.1339 [Ac=-49686.4 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L4/AriannaHuffington_2010W_17_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [380 frames] -62.6320 [Ac=-23800.2 LM=0.0] (Act=6.3)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L4/AriannaHuffington_2010W_18_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [1215 frames] -63.6844 [Ac=-77376.6 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L4/AriannaHuffington_2010W_19_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_U SENT-END  ==  [1673 frames] -62.0648 [Ac=-103834.3 LM=0.0] (Act=6.7)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L4/AriannaHuffington_2010W_20_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L4_I SENT-END  ==  [1087 frames] -63.6871 [Ac=-69227.9 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L5/AriannaHuffington_2010W_21_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_U SENT-END  ==  [394 frames] -63.5078 [Ac=-25022.1 LM=0.0] (Act=6.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L5/AriannaHuffington_2010W_22_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_U SENT-END  ==  [704 frames] -63.0802 [Ac=-44408.5 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L5/AriannaHuffington_2010W_23_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [1506 frames] -62.5100 [Ac=-94140.0 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L5/AriannaHuffington_2010W_24_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [2103 frames] -61.6511 [Ac=-129652.2 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation/MFCC/L5/AriannaHuffington_2010W_25_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_I SENT-END  ==  [1222 frames] -60.7161 [Ac=-74195.0 LM=0.0] (Act=5.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

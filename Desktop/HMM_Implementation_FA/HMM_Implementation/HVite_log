@@ -1,0 +1,136 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config -H hmm9/macros -H hmm9/hmmdefs -i Force_Alignment/GregoryPetsko_2008_aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I Force_Alignment/GregoryPetsko_2008_recout.mlf -S hmm_test/GregoryPetsko_2008_test.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 11 physical / 11 logical HMMs
+Label file will be used to align each file
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L1/GregoryPetsko_2008_1_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END L5_U SENT-END  ==  [731 frames] -66.1377 [Ac=-48346.6 LM=0.0] (Act=7.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L1/GregoryPetsko_2008_2_0.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END SENT-START L2_I L2_I L5_I L5_U SENT-END SENT-END  ==  [143 frames] -66.9180 [Ac=-9569.3 LM=0.0] (Act=15.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L1/GregoryPetsko_2008_3_1.mfc
+Created lattice with 23 nodes / 22 arcs from label file
+SENT-END SENT-START L2_I L5_I L2_I L2_I L5_U L2_I L1_I L1_I L2_I L5_U L1_I L2_I L5_U L2_I L5_U L2_I L1_I L2_I L1_I SENT-END SENT-END  ==  [651 frames] -68.5053 [Ac=-44597.0 LM=0.0] (Act=43.2)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L1/GregoryPetsko_2008_4_0.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END SENT-START L1_I L2_I L5_U L2_I SENT-END SENT-END  ==  [131 frames] -66.1065 [Ac=-8660.0 LM=0.0] (Act=15.7)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L1/GregoryPetsko_2008_5_0.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END SENT-START L2_I L1_I L2_I L5_U L1_I L2_I SENT-END SENT-END  ==  [218 frames] -66.9874 [Ac=-14603.3 LM=0.0] (Act=19.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L1/GregoryPetsko_2008_6_1.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SENT-START L1_I L5_U SENT-END SENT-END  ==  [635 frames] -68.9694 [Ac=-43795.6 LM=0.0] (Act=12.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L1/GregoryPetsko_2008_7_0.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SENT-START L2_I L5_U SENT-END SENT-END  ==  [149 frames] -66.4816 [Ac=-9905.8 LM=0.0] (Act=12.4)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L2/GregoryPetsko_2008_8_1.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SENT-START L1_I SENT-END SENT-END  ==  [414 frames] -66.6330 [Ac=-27586.1 LM=0.0] (Act=10.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L2/GregoryPetsko_2008_9_0.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END SENT-START L1_I L5_U L2_I L4_U L5_I L5_U L5_I SENT-END SENT-END  ==  [201 frames] -63.3412 [Ac=-12731.6 LM=0.0] (Act=21.1)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L2/GregoryPetsko_2008_10_1.mfc
+Created lattice with 21 nodes / 20 arcs from label file
+SENT-END SENT-START L2_I L2_I L2_I L5_U L1_I L4_U L2_I L5_U L2_I L5_U L2_I L1_I L5_U L1_I L2_I L1_I L5_U SENT-END SENT-END  ==  [782 frames] -68.4950 [Ac=-53563.1 LM=0.0] (Act=38.7)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L2/GregoryPetsko_2008_11_1.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END SENT-START L1_I L2_I L5_U L2_I L1_I L4_U L5_U L4_U L2_I L1_I SENT-END SENT-END  ==  [1009 frames] -67.2433 [Ac=-67848.5 LM=0.0] (Act=24.0)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L2/GregoryPetsko_2008_12_1.mfc
+Created lattice with 17 nodes / 16 arcs from label file
+SENT-END SENT-START L1_I L5_U L2_I L1_I L2_I L5_U L1_I L5_U L2_I L1_I L2_I L1_I L5_U SENT-END SENT-END  ==  [1216 frames] -66.5112 [Ac=-80877.6 LM=0.0] (Act=28.5)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L2/GregoryPetsko_2008_13_1.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SENT-START L1_I SENT-END SENT-END  ==  [817 frames] -68.3765 [Ac=-55863.6 LM=0.0] (Act=10.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L2/GregoryPetsko_2008_14_1.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END SENT-START L1_I L2_I L5_U L2_I L1_I L2_I SENT-END SENT-END  ==  [348 frames] -66.4875 [Ac=-23137.6 LM=0.0] (Act=19.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L3/GregoryPetsko_2008_15_0.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END SENT-START L2_I L5_U L1_I L2_I SENT-END SENT-END  ==  [834 frames] -67.2722 [Ac=-56105.0 LM=0.0] (Act=16.5)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L3/GregoryPetsko_2008_16_1.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SENT-START L1_I SENT-END SENT-END  ==  [791 frames] -68.3465 [Ac=-54062.1 LM=0.0] (Act=10.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L3/GregoryPetsko_2008_17_1.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END SENT-START L1_I L2_I L2_I L5_U L1_I L2_I L1_I SENT-END SENT-END  ==  [576 frames] -68.2340 [Ac=-39302.8 LM=0.0] (Act=22.4)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L3/GregoryPetsko_2008_18_0.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END SENT-START L1_I L2_I L5_U L2_I L1_I L2_I L1_I L2_I SENT-END SENT-END  ==  [1538 frames] -68.7061 [Ac=-105669.9 LM=0.0] (Act=10.3)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L3/GregoryPetsko_2008_19_0.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END SENT-START L4_U L2_I L2_I L5_I L1_I L4_U L2_I L5_U L2_I SENT-END SENT-END  ==  [815 frames] -68.2728 [Ac=-55642.4 LM=0.0] (Act=26.2)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L3/GregoryPetsko_2008_20_0.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END SENT-START L2_I L2_I L1_I L1_I L5_U L1_I L2_I L5_U L4_U L4_U SENT-END SENT-END  ==  [435 frames] -68.6458 [Ac=-29860.9 LM=0.0] (Act=27.4)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L3/GregoryPetsko_2008_21_0.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END SENT-START L2_I L1_I L5_U L2_I L5_U L2_I L1_I L2_I L2_I L5_U L4_U L1_U L2_I L5_U L1_I L5_U SENT-END SENT-END  ==  [588 frames] -68.4235 [Ac=-40233.0 LM=0.0] (Act=37.5)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L4/GregoryPetsko_2008_22_0.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END SENT-START L1_I L2_I L1_I L2_I SENT-END SENT-END  ==  [649 frames] -68.1609 [Ac=-44236.4 LM=0.0] (Act=15.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L4/GregoryPetsko_2008_23_0.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END SENT-START L1_I L5_U L1_I L2_I L5_U SENT-END SENT-END  ==  [520 frames] -67.9063 [Ac=-35311.3 LM=0.0] (Act=17.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L4/GregoryPetsko_2008_24_1.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END SENT-START L1_I L4_U L2_I SENT-END SENT-END  ==  [651 frames] -69.4598 [Ac=-45218.3 LM=0.0] (Act=14.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L4/GregoryPetsko_2008_25_0.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SENT-START L5_U L2_I SENT-END SENT-END  ==  [182 frames] -67.9797 [Ac=-12372.3 LM=0.0] (Act=12.5)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L4/GregoryPetsko_2008_26_0.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SENT-START L1_I L5_U SENT-END SENT-END  ==  [204 frames] -67.0896 [Ac=-13686.3 LM=0.0] (Act=12.6)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L4/GregoryPetsko_2008_27_0.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SENT-START L1_I L5_U SENT-END SENT-END  ==  [311 frames] -67.9177 [Ac=-21122.4 LM=0.0] (Act=12.7)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L4/GregoryPetsko_2008_28_1.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SENT-START L5_U L1_I SENT-END SENT-END  ==  [873 frames] -68.8853 [Ac=-60136.9 LM=0.0] (Act=12.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L5/GregoryPetsko_2008_29_1.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END SENT-START L5_U L2_I L1_I L2_I L5_U L2_I L5_U L1_I L2_I L5_U L2_I SENT-END SENT-END  ==  [626 frames] -70.3676 [Ac=-44050.1 LM=0.0] (Act=25.8)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L5/GregoryPetsko_2008_30_1.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END SENT-START L2_I L1_I L2_I L5_U SENT-END SENT-END  ==  [530 frames] -69.6831 [Ac=-36932.1 LM=0.0] (Act=16.6)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L5/GregoryPetsko_2008_31_1.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SENT-START L1_I SENT-END SENT-END  ==  [656 frames] -67.7259 [Ac=-44428.2 LM=0.0] (Act=10.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L5/GregoryPetsko_2008_32_0.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SENT-START L5_U L2_I SENT-END SENT-END  ==  [167 frames] -63.8550 [Ac=-10663.8 LM=0.0] (Act=12.5)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L5/GregoryPetsko_2008_33_0.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SENT-START L5_U SENT-END SENT-END  ==  [158 frames] -66.1318 [Ac=-10448.8 LM=0.0] (Act=10.6)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L5/GregoryPetsko_2008_34_1.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END SENT-START L1_I SENT-END SENT-END  ==  [421 frames] -66.6991 [Ac=-28080.3 LM=0.0] (Act=10.9)
+Aligning File: /home/iplab/Desktop/HMM_Implementation_Input_Increase_modified/HMM_Implementation/GregoryPetsko_2008/L5/GregoryPetsko_2008_35_1.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SENT-START L2_I L5_U SENT-END SENT-END  ==  [242 frames] -66.6727 [Ac=-16134.8 LM=0.0] (Act=12.6)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

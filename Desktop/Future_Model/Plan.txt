@@ -1,0 +1,57 @@
+
+using Praat via Python
+
+1. https://stackoverflow.com/questions/36615735/praat-integration-in-python-2-3
+
+
+using matlab via matlab
+
+1. 
+
+
+
+Integration
+
+
+Assumption
+
+1. Segmented Data already available (both in sentences and words).
+
+
+1. Preprocessig Module
+   
+   a. Remove starting and ending sound by program
+
+2. Feature extraction module
+ 
+   a. Using Praat --> pitch , intensity
+
+   b. Using Matlab --> slope , duration
+
+   c. write a program which 
+   
+     execute the part a and store the result in the csv file
+
+     execute the part b and store the result in the csv file
+
+     generate the final result(csv file)
+
+3. Important words Selection module
+
+   a. take the csv file and standarize each column
+
+   b. add sum column
+
+   c. get important words (35 % of the total)
+
+
+4. Manually find the sentences of corresponding important word  and append those sentences to generate the summary.
+
+                                   or
+
+   Refer the notebook when utterance basic selection is going to use
+
+5. Opinion score validation will be performed.
+
+
+

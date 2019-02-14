@@ -1,0 +1,199 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words.mlf -S train.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 12 physical / 12 logical HMMs
+Label file will be used to align each file
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SHUNYA SENT-END  ==  [148 frames] -56.0426 [Ac=-8294.3 LM=0.0] (Act=6.5)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_0_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SHUNYA SENT-END  ==  [145 frames] -54.6953 [Ac=-7930.8 LM=0.0] (Act=6.8)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_0_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SHUNYA SENT-END  ==  [154 frames] -56.8659 [Ac=-8757.4 LM=0.0] (Act=6.4)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_0_3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SHUNYA SENT-END  ==  [129 frames] -53.0997 [Ac=-6849.9 LM=0.0] (Act=6.4)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_0_4.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SHUNYA SENT-END  ==  [224 frames] -58.2703 [Ac=-13052.5 LM=0.0] (Act=6.9)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_0_5.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SHUNYA SENT-END  ==  [165 frames] -56.6649 [Ac=-9349.7 LM=0.0] (Act=6.3)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_0_6.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SHUNYA SENT-END  ==  [191 frames] -59.8330 [Ac=-11428.1 LM=0.0] (Act=7.3)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END EK SENT-END  ==  [112 frames] -50.4870 [Ac=-5654.5 LM=0.0] (Act=6.8)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_1_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END EK SENT-END  ==  [235 frames] -51.6560 [Ac=-12139.2 LM=0.0] (Act=7.2)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_1_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END EK SENT-END  ==  [135 frames] -56.2208 [Ac=-7589.8 LM=0.0] (Act=7.6)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_1_3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END EK SENT-END  ==  [163 frames] -54.4444 [Ac=-8874.4 LM=0.0] (Act=6.2)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END DON SENT-END  ==  [185 frames] -57.1812 [Ac=-10578.5 LM=0.0] (Act=7.4)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_2_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END DON SENT-END  ==  [130 frames] -56.7100 [Ac=-7372.3 LM=0.0] (Act=6.5)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_2_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END DON SENT-END  ==  [213 frames] -52.6821 [Ac=-11221.3 LM=0.0] (Act=6.4)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_2_3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END DON SENT-END  ==  [130 frames] -52.8949 [Ac=-6876.3 LM=0.0] (Act=6.4)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TEEN SENT-END  ==  [190 frames] -50.2451 [Ac=-9546.6 LM=0.0] (Act=6.3)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_3_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TEEN SENT-END  ==  [156 frames] -51.7329 [Ac=-8070.3 LM=0.0] (Act=6.3)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_3_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TEEN SENT-END  ==  [215 frames] -50.8660 [Ac=-10936.2 LM=0.0] (Act=6.2)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_4.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END CHAR SENT-END  ==  [250 frames] -50.6975 [Ac=-12674.4 LM=0.0] (Act=6.2)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_4_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END CHAR SENT-END  ==  [116 frames] -52.3420 [Ac=-6071.7 LM=0.0] (Act=7.6)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_4_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END CHAR SENT-END  ==  [134 frames] -64.8878 [Ac=-8695.0 LM=0.0] (Act=7.7)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_4_3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END CHAR SENT-END  ==  [152 frames] -58.2817 [Ac=-8858.8 LM=0.0] (Act=7.7)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_4_4.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END CHAR SENT-END  ==  [287 frames] -52.2082 [Ac=-14983.7 LM=0.0] (Act=5.4)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_5.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END PACH SENT-END  ==  [174 frames] -49.7154 [Ac=-8650.5 LM=0.0] (Act=6.8)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_5_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END PACH SENT-END  ==  [139 frames] -52.0554 [Ac=-7235.7 LM=0.0] (Act=6.1)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_5_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END PACH SENT-END  ==  [137 frames] -56.0729 [Ac=-7682.0 LM=0.0] (Act=7.7)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_5_3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END PACH SENT-END  ==  [178 frames] -48.9494 [Ac=-8713.0 LM=0.0] (Act=6.4)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_5_4.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END PACH SENT-END  ==  [295 frames] -51.8729 [Ac=-15302.5 LM=0.0] (Act=4.9)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_6.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAHA SENT-END  ==  [187 frames] -52.2442 [Ac=-9769.7 LM=0.0] (Act=6.6)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_6_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAHA SENT-END  ==  [101 frames] -60.0652 [Ac=-6066.6 LM=0.0] (Act=6.7)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_6_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAHA SENT-END  ==  [152 frames] -51.6288 [Ac=-7847.6 LM=0.0] (Act=6.5)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_6_3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAHA SENT-END  ==  [131 frames] -63.0638 [Ac=-8261.4 LM=0.0] (Act=7.4)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_6_4.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAHA SENT-END  ==  [285 frames] -52.9017 [Ac=-15077.0 LM=0.0] (Act=5.6)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_7.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAAT SENT-END  ==  [172 frames] -53.8296 [Ac=-9258.7 LM=0.0] (Act=6.3)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_7_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAAT SENT-END  ==  [152 frames] -53.5833 [Ac=-8144.7 LM=0.0] (Act=6.4)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_7_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAAT SENT-END  ==  [162 frames] -52.5887 [Ac=-8519.4 LM=0.0] (Act=6.5)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_7_3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAAT SENT-END  ==  [142 frames] -52.7005 [Ac=-7483.5 LM=0.0] (Act=6.6)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_7_4.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAAT SENT-END  ==  [143 frames] -55.3030 [Ac=-7908.3 LM=0.0] (Act=6.6)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_7_5.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAAT SENT-END  ==  [150 frames] -55.2206 [Ac=-8283.1 LM=0.0] (Act=6.1)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_7_6.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAAT SENT-END  ==  [145 frames] -58.6200 [Ac=-8499.9 LM=0.0] (Act=7.7)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_7_7.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAAT SENT-END  ==  [208 frames] -52.3512 [Ac=-10889.0 LM=0.0] (Act=5.3)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_8.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END AATH SENT-END  ==  [150 frames] -54.2040 [Ac=-8130.6 LM=0.0] (Act=6.5)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_8_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END AATH SENT-END  ==  [128 frames] -53.6838 [Ac=-6871.5 LM=0.0] (Act=7.5)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_8_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END AATH SENT-END  ==  [131 frames] -52.4762 [Ac=-6874.4 LM=0.0] (Act=6.6)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_8_3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END AATH SENT-END  ==  [179 frames] -48.3602 [Ac=-8656.5 LM=0.0] (Act=6.1)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_8_4.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END AATH SENT-END  ==  [116 frames] -66.2761 [Ac=-7688.0 LM=0.0] (Act=7.6)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_8_5.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END AATH SENT-END  ==  [135 frames] -53.3787 [Ac=-7206.1 LM=0.0] (Act=7.4)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_8_6.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END AATH SENT-END  ==  [179 frames] -58.4090 [Ac=-10455.2 LM=0.0] (Act=7.8)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_8_7.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END AATH SENT-END  ==  [163 frames] -58.2467 [Ac=-9494.2 LM=0.0] (Act=6.7)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_9.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END NAU SENT-END  ==  [172 frames] -53.2283 [Ac=-9155.3 LM=0.0] (Act=6.5)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_9_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END NAU SENT-END  ==  [128 frames] -58.0197 [Ac=-7426.5 LM=0.0] (Act=7.5)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_9_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END NAU SENT-END  ==  [135 frames] -50.3960 [Ac=-6803.5 LM=0.0] (Act=6.2)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_9_3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END NAU SENT-END  ==  [125 frames] -55.5079 [Ac=-6938.5 LM=0.0] (Act=6.0)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_9_4.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END NAU SENT-END  ==  [148 frames] -51.6921 [Ac=-7650.4 LM=0.0] (Act=6.3)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_9_5.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END NAU SENT-END  ==  [176 frames] -54.6938 [Ac=-9626.1 LM=0.0] (Act=5.9)
+Aligning File: /home/pravin/htk/digit_project/SpeechDat_digits/MFCC/Voice_9_6.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END NAU SENT-END  ==  [212 frames] -53.3256 [Ac=-11305.0 LM=0.0] (Act=6.4)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

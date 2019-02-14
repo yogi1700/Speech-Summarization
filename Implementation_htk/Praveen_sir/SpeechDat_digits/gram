@@ -1,0 +1,4 @@
+$digit = ONE | TWO | THREE | FOUR | FIVE |
+SIX | SEVEN | EIGHT | NINE | OH | ZERO;
+
+( SENT-START ( DIAL <$digit> ) SENT-END )

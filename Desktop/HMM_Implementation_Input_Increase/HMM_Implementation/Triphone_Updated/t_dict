@@ -1,0 +1,39 @@
+L1_I	[L1_I]	l1_i+l1_u
+L1_I	[L1_I]	l1_u-l1_i+l2_i 
+L1_I	[L1_I]	l1_u-l1_i+l2_u
+L1_U	[L1_U]	l1_u+l1_i
+L1_U	[L1_U]	l1_i-l1_u+l2_i
+L1_U	[L1_U]	l1_i-l1_u+l2_u
+L2_I	[L2_I]	l1_i-l2_i+l2_u
+L2_I	[L2_I]	l1_u-l2_i+l2_u
+L2_I	[L2_I]	l2_u-l2_i+l3_u
+L2_I	[L2_I]	l2_u-l2_i+l3_i
+L2_U	[L2_U]	l1_u-l2_u+l2_i
+L2_U	[L2_U]	l1_i-l2_u+l2_i
+L2_U	[L2_U]	l2_i-l2_u+l3_u
+L2_U	[L2_U]	l2_i-l2_u+l3_i
+L3_I	[L3_I]	l2_i-l3_i+l3_u
+L3_I	[L3_I]	l2_u-l3_i+l3_u
+L3_I	[L3_I]	l3_u-l3_i+l4_u
+L3_I	[L3_I]	l3_u-l3_i+l4_i
+L3_U	[L3_U]	l2_u-l3_u+l3_i
+L3_U	[L3_U]	l2_i-l3_u+l3_i
+L3_U	[L3_U]	l3_i-l3_u+l4_u
+L3_U	[L3_U]	l3_i-l3_u+l4_i
+L4_I	[L4_I]	l3_i-l4_i+l4_u
+L4_I	[L4_I]	l3_u-l4_i+l4_u
+L4_I	[L4_I]	l4_u-l4_i+l5_u
+L4_I	[L4_I]	l4_u-l4_i+l5_i
+L4_U	[L4_U]	l3_u-l4_u+l4_i
+L4_U	[L4_U]	l3_i-l4_u+l4_i
+L4_U	[L4_U]	l4_i-l4_u+l5_u
+L4_U	[L4_U]	l4_i-l4_u+l5_i
+L5_I	[L5_I]	l5_u-l5_i
+L5_I	[L5_I]	l4_u-l5_i+l5_u 
+L5_I	[L5_I]	l4_i-l5_i+l5_u
+L5_U	[L5_U]	l5_i-l5_u
+L5_U	[L5_U]	l4_i-l5_u+l5_i
+L5_U	[L5_U]	l4_u-l5_u+l5_i
+SENT-END        sil
+SENT-START      sil
+

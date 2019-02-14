@@ -1,0 +1,18 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config -H hmm7/macros -H hmm7/hmmdefs -i Force_Alignment/GregoryPetsko_2008_aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I Force_Alignment/GregoryPetsko_2008_recout.mlf -S hmm_test/GregoryPetsko_2008_test.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 11 physical / 11 logical HMMs
+Label file will be used to align each file
+Aligning File: /home/user/Desktop/27_Dec_2018_Backup/Desktop/HMM_Implementation_Input_Increase/HMM_Implementation/GregoryPetsko_2008/L1/GregoryPetsko_2008_1_1.mfc

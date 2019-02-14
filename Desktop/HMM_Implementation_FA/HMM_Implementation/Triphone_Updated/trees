@@ -1,0 +1,3 @@
+QS 'R_NonBoundary' { "*+*" }
+QS 'L_NonBoundary' { "*-*" }
+

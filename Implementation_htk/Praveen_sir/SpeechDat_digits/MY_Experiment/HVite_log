@@ -1,0 +1,121 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config_proto -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words.mlf -S train.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 11 physical / 11 logical HMMs
+Label file will be used to align each file
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_0.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SHUNYA SENT-END  ==  [132 frames] -52.6324 [Ac=-6947.5 LM=0.0] (Act=5.4)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_0_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SHUNYA SENT-END  ==  [333 frames] -47.4592 [Ac=-15803.9 LM=0.0] (Act=5.1)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_0_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SHUNYA SENT-END  ==  [218 frames] -53.4384 [Ac=-11649.6 LM=0.0] (Act=4.2)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END EK SENT-END  ==  [115 frames] -54.3846 [Ac=-6254.2 LM=0.0] (Act=5.3)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_1_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END EK SENT-END  ==  [282 frames] -49.1707 [Ac=-13866.1 LM=0.0] (Act=4.9)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_1_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END EK SENT-END  ==  [158 frames] -53.8011 [Ac=-8500.6 LM=0.0] (Act=5.1)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END DON SENT-END  ==  [115 frames] -54.5307 [Ac=-6271.0 LM=0.0] (Act=5.0)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_2_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END DON SENT-END  ==  [241 frames] -47.2906 [Ac=-11397.0 LM=0.0] (Act=4.8)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_2_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END DON SENT-END  ==  [179 frames] -54.8464 [Ac=-9817.5 LM=0.0] (Act=4.8)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TEEN SENT-END  ==  [275 frames] -47.7069 [Ac=-13119.4 LM=0.0] (Act=4.4)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_3_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TEEN SENT-END  ==  [256 frames] -45.9740 [Ac=-11769.4 LM=0.0] (Act=5.4)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_3_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TEEN SENT-END  ==  [192 frames] -50.1901 [Ac=-9636.5 LM=0.0] (Act=4.8)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_4.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END CHAR SENT-END  ==  [128 frames] -50.8896 [Ac=-6513.9 LM=0.0] (Act=4.4)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_4_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END CHAR SENT-END  ==  [250 frames] -49.0777 [Ac=-12269.4 LM=0.0] (Act=5.2)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_4_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END CHAR SENT-END  ==  [173 frames] -50.2081 [Ac=-8686.0 LM=0.0] (Act=5.2)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_5.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END PACH SENT-END  ==  [141 frames] -49.3648 [Ac=-6960.4 LM=0.0] (Act=5.6)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_5_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END PACH SENT-END  ==  [256 frames] -47.2467 [Ac=-12095.2 LM=0.0] (Act=5.5)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_5_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END PACH SENT-END  ==  [263 frames] -47.8848 [Ac=-12593.7 LM=0.0] (Act=5.0)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_6.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAHA SENT-END  ==  [126 frames] -51.6318 [Ac=-6505.6 LM=0.0] (Act=5.2)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_6_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAHA SENT-END  ==  [235 frames] -53.4211 [Ac=-12554.0 LM=0.0] (Act=5.3)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_6_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAHA SENT-END  ==  [260 frames] -48.1409 [Ac=-12516.6 LM=0.0] (Act=4.6)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_7.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAAT SENT-END  ==  [160 frames] -49.8864 [Ac=-7981.8 LM=0.0] (Act=5.5)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_7_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAAT SENT-END  ==  [235 frames] -48.5323 [Ac=-11405.1 LM=0.0] (Act=4.7)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_7_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END SAAT SENT-END  ==  [402 frames] -50.8197 [Ac=-20429.5 LM=0.0] (Act=4.3)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_8.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END AATH SENT-END  ==  [192 frames] -48.3688 [Ac=-9286.8 LM=0.0] (Act=4.7)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_8_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END AATH SENT-END  ==  [235 frames] -48.4481 [Ac=-11385.3 LM=0.0] (Act=5.1)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_8_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END AATH SENT-END  ==  [269 frames] -47.9976 [Ac=-12911.3 LM=0.0] (Act=4.4)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_9.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END NAU SENT-END  ==  [160 frames] -48.9984 [Ac=-7839.7 LM=0.0] (Act=5.3)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_9_1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END NAU SENT-END  ==  [231 frames] -50.5915 [Ac=-11686.6 LM=0.0] (Act=5.3)
+Aligning File: /home/iplab/Implementation_htk/Praveen_sir/SpeechDat_digits/MY_Experiment/MFCC/test_9_2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END NAU SENT-END  ==  [205 frames] -48.9610 [Ac=-10037.0 LM=0.0] (Act=5.5)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

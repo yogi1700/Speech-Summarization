@@ -1,0 +1,13 @@
+CL triphones1
+TI T_aath {(*-aath+*,aath+*,*-aath).transP}
+TI T_sp {(*-sp+*,sp+*,*-sp).transP}
+TI T_char {(*-char+*,char+*,*-char).transP}
+TI T_don {(*-don+*,don+*,*-don).transP}
+TI T_ek {(*-ek+*,ek+*,*-ek).transP}
+TI T_nau {(*-nau+*,nau+*,*-nau).transP}
+TI T_pach {(*-pach+*,pach+*,*-pach).transP}
+TI T_saat {(*-saat+*,saat+*,*-saat).transP}
+TI T_saha {(*-saha+*,saha+*,*-saha).transP}
+TI T_sil {(*-sil+*,sil+*,*-sil).transP}
+TI T_shunya {(*-shunya+*,shunya+*,*-shunya).transP}
+TI T_teen {(*-teen+*,teen+*,*-teen).transP}

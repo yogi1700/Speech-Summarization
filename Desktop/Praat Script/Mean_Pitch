@@ -1,0 +1,62 @@
+# Based on http://www.fon.hum.uva.nl/praat/manual/Script_for_listing_time_--F0_--intensity.html
+#
+
+
+# Pitch and intensity parameters
+# male: 50, 350
+# female: 75, 450
+sampleStep = 0.01
+minPitch = 75
+maxPitch = 450
+
+
+# Directory needs a final '/'
+# **Both directories need to already exist**
+input_directory$ = "/home/iplab/Desktop/Segments/"
+output_directory$ = "/home/iplab/Desktop/Result/"
+
+strings = Create Strings as file list... list 'input_directory$'*.wav
+numberOfFiles = Get number of strings
+
+
+for ifile to numberOfFiles
+    selectObject: strings
+    fileName$ = Get string: ifile
+    Read from file: input_directory$ + fileName$
+    name$ = fileName$ - ".wav"
+    sound = selected ("Sound")
+    selectObject: sound
+
+
+    To Pitch: sampleStep, minPitch, maxPitch
+    Rename: "pitch"
+    tmin = Get start time
+    tmax = Get end time
+    #numberOfTimeSteps = (endTime - startTime) / 0.01
+
+    
+
+   #for step to numberOfTimeSteps
+    # tmin = startTime + (step - 1) * 0.01
+    # tmax = tmin + 0.01
+     mean = Get mean: tmin, tmax, "dB"
+     minimum = Get minimum: tmin, tmax, "dB", "Parabolic"
+     maximum = Get maximum: tmin, tmax, "dB", "Parabolic"
+     appendFileLine: "'output_directory$'output.txt", name$,"	", fixed$ (mean, 2), "	", fixed$ (minimum , 2),"	", fixed$ (maximum , 2)
+   #endfor
+
+	# Cleanup
+
+	selectObject: "Pitch pitch"
+	Remove
+
+
+	selectObject: sound
+	Remove
+
+endfor
+
+selectObject: strings
+
+Remove
+	
